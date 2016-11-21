@@ -5,9 +5,37 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <title>color picker</title>
     <link rel="stylesheet" href="/screen.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <h1>HSL Color Selector</h1>
+
+    <section>
+      <header class="box">
+      </header>
+    </section>
+
+    <p>
+      hsla (264,77%,46%,0.97)
+    </p>
+
+    <div class="form">
+    <form>
+    <ul>
+     <li><p>Hue</p></li>
+     <li><input name="hue" type="range" min="0" max="360" value="10"></li>
+     <li><p>Saturation</p></li>
+     <li><input name="saturation" type="range" min="0" max="100" value="10"></li>
+     <li><p>Light</p></li>
+     <li><input name="light" type="range" min="0" max="50" value="10"></li>
+     <li><p>Alpha</p></li>
+     <li><input name="alpha" type="range" min="0.00" max="1.00" step=".01"></li>
+    </ul>
+
+    </form>
+
     <script src="/main.js" charset="utf-8"></script>
+
+    </div>
   </body>
 </html>
